@@ -23,3 +23,8 @@ aside {
 footer {
     background-color: fuchsia;
 }
+
+img {
+    float: left;
+    margin-right: 20px;
+}
