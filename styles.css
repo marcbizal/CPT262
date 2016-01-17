@@ -5,6 +5,7 @@
 }
 
 #wrapper {
+    background-color: lime;
     width: 960px;
     margin: 0 auto;
 }
@@ -30,6 +31,7 @@ aside {
 }
 
 footer {
+    clear: left;
     background-color: fuchsia;
 }
 
