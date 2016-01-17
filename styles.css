@@ -4,6 +4,11 @@
     padding: 20px;
 }
 
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
 header {
     background-color: aqua;
 }
@@ -13,10 +18,14 @@ nav {
 }
 
 section {
+    float: left;
+    width: 600px;
     background-color: lime;
 }
 
 aside {
+    float: left;
+    width: 272px;
     background-color: yellow;
 }
 
