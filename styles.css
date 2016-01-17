@@ -7,6 +7,19 @@
 header {
     background-color: aqua;
 }
+
 nav {
     background-color: wheat;
+}
+
+section {
+    background-color: lime;
+}
+
+aside {
+    background-color: yellow;
+}
+
+footer {
+    background-color: fuchsia;
 }
