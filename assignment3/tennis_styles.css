@@ -1,0 +1,72 @@
+body {
+        background-color: lightgray;
+        text-align: center;
+}
+nav {
+        background-color: black;
+        width: 96%;
+        padding: 10px 2%; /*10px top and bottom 2% left and right*/
+}
+nav table {
+        width: 96%;
+}
+
+a {
+        text-decoration: none;
+}
+
+a:link {
+        color: white;
+}
+
+a:visited {
+        color: yellow;
+}
+
+header {
+        width: 90%;
+        margin: 10px auto;
+}
+
+.business_name {
+        width: 100%;
+        padding: 5px;
+        border: 3px solid white;
+        border-radius: 20px;
+        box-shadow: 10px 10px gray;
+        background-color: whitesmoke;
+}
+
+section {
+            width: 90%;
+            margin: 10px auto;
+            text-align: left;
+}
+
+footer {
+        background-color: black;
+        color: white;
+        width: 96%;
+        padding: 10px 2%; /*10px top and bottom 2% left and right*/
+        overflow: auto;
+}
+
+footer table {
+        width: 96%;
+}
+
+.SocialLinks {
+            float: right;
+            width: 35%;
+}
+
+.SocialLinks img {
+            width: 25%;
+            margin-right: 5%;
+}
+
+@media screen and (min-width: 768px) {
+    .SocialLinks img {
+            width: 15%;
+    }
+}
