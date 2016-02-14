@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tab Controls</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        body {
+            background-color: yellow;
+            margin-top: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <ul id="first_tab" class="nav nav-tabs" role="tablist">
+            <li><a href="#tab_1" role="tab" data-toggle="tab">Tab 1 stuff</a></li>
+            <li><a href="#tab_2" role="tab" data-toggle="tab">Tab 2 stuff</a></li>
+            <li><a href="#tab_3" role="tab" data-toggle="tab">
+                <span class="glyphicon glyphicon-heart"></span>
+                &nbsp;&nbsp;Tab 3 stuff
+            </a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane" id="tab_1">
+                <h4>Content that would be in tab 1</h4>
+            </div>
+            <div class="tab-pane" id="tab_2">
+                <h4>Stuff that would be in tab 2</h4>
+            </div>
+            <div class="tab-pane" id="tab_3">
+                <h4>This is the stuff for the final tab 3</h4>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
