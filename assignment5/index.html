@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tab Controls</title>
+    <title>Picture Carousel</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
@@ -15,25 +15,23 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a href="#" class="navbar-brand">Trident Tennis</a>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarToCollapse">
-                    <span class="sr-only">Toggle header</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+<div class="container">
+    <h1>My Favorite Cartoons</h1>
+    <div class="carousel slide"
+         data-ride="carousel"
+         data-interval="3000">
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/catfudd.jpg" alt="Cat Fudd">
             </div>
-            <div class="collapse navbar-collapse" id="navbarToCollapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Academy</a></li>
-                    <li><a href="#">Membership</a></li>
-                    <li><a href="#">Schedule</a></li>
-                </ul>
+            <div class="item">
+                <img src="images/bad_dog.jpg" alt="Bad Dog">
+            </div>
+            <div class="item">
+                <img src="images/cows.jpg" alt="Cows">
             </div>
         </div>
-    </nav>
+    </div>
+</div>
 </body>
 </html>
