@@ -9,17 +9,26 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <style type="text/css">
         body {
-            background-color: yellow;
-            margin-top: 16px;
+            background-color: grey;
+            margin-top: 32px;
+        }
+
+        .carousel-inner > .item > img {
+            margin: 0 auto;
         }
     </style>
 </head>
 <body>
 <div class="container">
     <h1>My Favorite Cartoons</h1>
-    <div class="carousel slide"
+    <div id="navCarousel" class="carousel slide"
          data-ride="carousel"
          data-interval="3000">
+        <ol class="carousel-indicators">
+            <li data-target="#navCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#navCarousel" data-slide-to="1"></li>
+            <li data-target="#navCarousel" data-slide-to="2"></li>
+        </ol>
         <div class="carousel-inner">
             <div class="item active">
                 <img src="images/catfudd.jpg" alt="Cat Fudd">
@@ -31,6 +40,8 @@
                 <img src="images/cows.jpg" alt="Cows">
             </div>
         </div>
+        <a href="#navCarousel" class="left carousel-control" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a href="#navCarousel" class="right carousel-control" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div>
 </div>
 </body>
