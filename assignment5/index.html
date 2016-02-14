@@ -9,21 +9,26 @@
             background-color: yellow;
         }
 
-        #fluid_example {
+        .col {
             background-color: silver;
+            padding: 8px;
+            border: 2px solid black;
         }
 
-        #flexible_example {
-            background-color: red;
+        .row {
+            background-color: orange;
+            margin-top: 16px;
         }
     </style>
 </head>
 <body>
-    <div id="fluid_example" class="container_fluid">
-        <h1>This is a fluid layout!</h1>
-    </div>
-    <div id="flexible_example" class="container">
-        <h1>This is a Flexible layout!</h1>
+    <div class="container-fluid">
+        <div class="row" id="row1">
+            <div class="col-xs-3 col">Col #1 (3)</div>
+            <div class="col-xs-3 col">Col #2 (3)</div>
+            <div class="col-xs-3 col">Col #3 (3)</div>
+            <div class="col-xs-3 col">Col #4 (3)</div>
+        </div>
     </div>
 </body>
 </html>
